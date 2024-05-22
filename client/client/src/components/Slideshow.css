@@ -1,0 +1,24 @@
+/* Slideshow.css */
+.slideshow-container {
+    max-width: 70%;
+    position: relative;
+    overflow:hidden;
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+    width:100%;
+    transition:opacity 0.3s;
+  }
+  
+  .mySlides.active {
+    display: block;
+  }
+
+.image2{
+  height:50px;
+  width:50px;
+}
+  
+  
